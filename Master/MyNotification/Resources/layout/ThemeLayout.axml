@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#E8E8E8"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <RadioGroup
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:id="@+id/llRaadio"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp">
+            <RadioButton
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="image1"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"
+                android:checked="true"
+                android:textSize="17dp"
+                android:paddingLeft="10dp" />
+            <RadioButton
+                android:id="@+id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="image2"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"
+                android:checked="true"
+                android:textSize="17dp"
+                android:paddingLeft="10dp" />
+            <RadioButton
+                android:id="@+id/img3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="image3"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"
+                android:checked="true"
+                android:textSize="17dp"
+                android:paddingLeft="10dp" />
+            <RadioButton
+                android:id="@+id/img4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="image4"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"
+                android:checked="true"
+                android:textSize="17dp"
+                android:paddingLeft="10dp" />
+            <RadioButton
+                android:id="@+id/img5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="image5"
+                android:textColor="#000"
+                android:layout_marginTop="1dp"
+                android:checked="true"
+                android:textSize="17dp"
+                android:paddingLeft="10dp" />
+        </RadioGroup>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,2 @@
+C:\Users\naina.sharma\Documents\All Projects\Sample\MOM\MyNotification\MyNotification\bin\Debug\MyNotification.dll
+C:\Users\naina.sharma\Documents\All Projects\Sample\MOM\MyNotification\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll

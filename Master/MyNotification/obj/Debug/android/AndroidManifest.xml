@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.iinotification.app">
+  <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="21" />
+  <application android:label="MyNotification" android:icon="@drawable/icon" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="Mother" android:name="md57030d9db89ebb0624f337c6f12059bbb.AlarmController">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="md57030d9db89ebb0624f337c6f12059bbb.OneShotAlarm" />
+    <receiver android:name="md57030d9db89ebb0624f337c6f12059bbb.RepeatingAlarm" />
+    <activity android:label="" android:name="md57a70948c29df7d4fa4a2e23266bddeaf.SecondActivity" />
+    <activity android:label="" android:name="md57a70948c29df7d4fa4a2e23266bddeaf.MainScreen" />
+    <activity android:label="ThemeActivity" android:name="md57a70948c29df7d4fa4a2e23266bddeaf.ThemeActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.iinotification.app.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.iinotification.app" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>
